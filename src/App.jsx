@@ -11,8 +11,8 @@ import Skills from './components/Skills'
 const App = () => {
   return (
     <div>
-      <NavBar/>
-      <Hero/>
+      <NavBar />
+      <Hero />
       <Projects/>
       <Skills/>
       <Certifications/>

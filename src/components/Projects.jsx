@@ -2,23 +2,23 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <div>
-      <div id="Projects" className="flex justify-center items-center mt-5">
+    <div className=''>
+      <div id="Projects" className="flex justify-center items-center md:mt-0">
         <h1 className="text-yellow-500 font-bold text-4xl md:text-6xl">Projects</h1>
       </div>
 
       <div className="flex flex-col items-center md:px-16 mt-10">
         {/* Project 1 */}
-        <div className="flex flex-col md:flex-row items-start justify-between w-full">
+        <div className="flex flex-col md:flex-row  justify-between w-full">
           <h2 className="mb-3 font-semibold text-center text-2xl">1. College Bus Live Tracking System</h2>
           <a
             href="https://ai2.appinventor.mit.edu/#6694402763128832"
-            className="underline font-semibold text-nowrap"
+            className="underline font-semibold text-nowrap text-center md:text-end"
           >
             Source Code
           </a>
         </div>
-        <ul className="list-disc w-full text-justify">
+        <ul className="list-disc w-full text-justify px-2 md:px-0">
           <li className="ml-7 font-sans font-normal">
             Developed an Android-based live tracking system that does not rely on GPS modules, allowing secure location sharing for registered users.
           </li>
@@ -34,16 +34,16 @@ const Projects = () => {
         </ul>
         <br />
         {/* Project 2 */}
-        <div className="flex flex-col md:flex-row items-start justify-between w-full">
+        <div className="flex flex-col md:flex-row justify-between w-full">
           <h2 className="mb-3 font-semibold text-center text-2xl">2. Python Call Center Logging</h2>
           <a
             href="https://github.com/Narasimha57/Narasimha57-pep-pythonSQL-project"
-            className="underline font-semibold text-nowrap"
+            className="underline font-semibold text-nowrap text-center md:text-end"
           >
             Source Code
           </a>
         </div>
-        <ul className="list-disc w-full text-justify">
+        <ul className="list-disc w-full text-justify px-2 md:px-0">
           <li className="ml-7 font-sans font-normal">
             Architected and implemented a robust backend data management system for call center operations streamlining data analysis workflows
           </li>
@@ -64,12 +64,12 @@ const Projects = () => {
           <h2 className="mb-3 font-semibold text-center text-2xl">3. Quiz App</h2>
           <a
             href="#"
-            className="underline font-semibold text-nowrap items-end"
+            className="underline font-semibold text-nowrap text-center md:text-end"
           >
             Source Code
           </a>
         </div>
-        <ul className="list-disc w-full text-justify">
+        <ul className="list-disc w-full text-justify px-2 md:px-0">
           <li className="ml-7 font-sans font-normal">
             Secure login for admins and users.
           </li>

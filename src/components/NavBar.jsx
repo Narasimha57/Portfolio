@@ -9,16 +9,16 @@ const NavBar = () => {
         { id: 1, text: "Home", to: "Home" },
         { id: 2, text: "About", to: "About" },
         { id: 3, text: "Projects", to: "Projects" },
-        { id: 4, text: "Certifications", to: "Certifications" },
         { id: 5, text: "Skills", to: "Skills"},
+        { id: 4, text: "Certifications", to: "Certifications" },
         { id: 6, text: "Contact Us", to: "Contact" },
     ];
 
     return (
-        <div className='bg-yellow-50 text-black w-full'>
+        <div className='bg-yellow-50 text-black w-full '>
             {/* Desktop Navigation */}
-            <div className='container mx-auto p-4 hidden md:flex justify-between items-center'>
-                <div className='text-3xl font-bold flex items-center gap-1'>
+            <div className='container mx-auto p-4 md:py-2 hidden md:flex justify-between items-center fixed bg-yellow-50 '>
+                <div className='text-3xl font-bold flex items-center gap-1 '>
                     <span>Narasimha</span>
                     <span>Gonela</span>
                 </div>
