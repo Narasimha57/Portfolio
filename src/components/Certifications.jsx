@@ -10,13 +10,13 @@ const Certifications = () => {
     </div><br /><br />
     <h3 className='font-bold text-2xl px-2 md:text-4xl md:px-6 md:font-bold'
     >
-        1. NPTEL Certificate
+         NPTEL Certificate
     </h3>
     <br /><br />
     <img src="./nptel.jpg" alt="NPTEL"  className='md:px-20 md:py-4 px-4 rounded-2xl'/>
     <br /><br />
     <h3 className='font-bold text-2xl px-2 md:text-4xl md:px-6 md:font-bold'>
-        2. Google Developer Certificate</h3><br />
+        Google Developer Certificate</h3><br />
     <img src="./google.png" alt="Google" className='md:px-20 md:py-4 px-4 rounded-2xl ' />
         
     </div>

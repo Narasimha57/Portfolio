@@ -10,7 +10,7 @@ const Projects = () => {
       <div className="flex flex-col items-center md:px-16 mt-10">
         {/* Project 1 */}
         <div className="flex flex-col md:flex-row  justify-between w-full">
-          <h2 className="mb-3 font-semibold text-center text-2xl">1. College Bus Live Tracking System</h2>
+          <h2 className="mb-3 font-semibold text-center text-2xl">College Bus Live Tracking System</h2>
           <a
             href="https://ai2.appinventor.mit.edu/#6694402763128832"
             className="underline font-semibold text-nowrap text-center md:text-end"
@@ -35,7 +35,7 @@ const Projects = () => {
         <br />
         {/* Project 2 */}
         <div className="flex flex-col md:flex-row justify-between w-full">
-          <h2 className="mb-3 font-semibold text-center text-2xl">2. Python Call Center Logging</h2>
+          <h2 className="mb-3 font-semibold text-center text-2xl"> Python Call Center Logging</h2>
           <a
             href="https://github.com/Narasimha57/Narasimha57-pep-pythonSQL-project"
             className="underline font-semibold text-nowrap text-center md:text-end"
@@ -61,7 +61,7 @@ const Projects = () => {
         <br />
         {/* Project 3 */}
         <div className="flex flex-col md:flex-row  justify-between w-full">
-          <h2 className="mb-3 font-semibold text-center text-2xl">3. Quiz App</h2>
+          <h2 className="mb-3 font-semibold text-center text-2xl">Quiz App</h2>
           <a
             href="#"
             className="underline font-semibold text-nowrap text-center md:text-end"
