@@ -12,6 +12,7 @@ const App = () => {
   return (
     <div>
       <NavBar />
+      <br />
       <Hero />
       <Projects/>
       <Skills/>

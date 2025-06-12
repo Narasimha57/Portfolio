@@ -6,7 +6,7 @@ const Skills = () => {
     {
       title: "Front-End",
       icon: <Monitor className="w-6 h-6" />,
-      skills: ["HTML5", "CSS3", "JavaScript", "ReactJS", "TailwindCSS"],
+      skills: ["HTML5", "CSS3","TailwindCSS", "Bootstrap", "JavaScript", "ReactJS",],
       bgColor: "bg-blue-100",
       iconColor: "text-blue-600"
     },
@@ -34,7 +34,7 @@ const Skills = () => {
     {
       title: "Developer Tools",
       icon: <Wrench className="w-6 h-6" />,
-      skills: ["VSCode", "GitHub"],
+      skills: ["VSCode", "GitHub","Postman API", "Thunder Client"],
       bgColor: "bg-red-100",
       iconColor: "text-red-600"
     },

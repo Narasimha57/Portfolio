@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { IoMenu, IoClose } from "react-icons/io5";
-import CV from "../assets/My_latest_Resume.pdf";
+import CV from "../assets/Narasimha's_Latest_Resume.pdf";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
@@ -15,9 +15,9 @@ const NavBar = () => {
     ];
 
     return (
-        <div className='bg-yellow-50 text-black w-full '>
+        <div className='text-black w-full '>
             {/* Desktop Navigation */}
-            <div className='container mx-auto p-4 md:py-2 hidden md:flex justify-between items-center fixed bg-yellow-50 '>
+            <div className='container mx-auto p-4 md:py-2 hidden md:flex justify-between items-center fixed' style={{ backgroundColor: '#FBF5F3' }}>
                 <div className='text-3xl font-bold flex items-center gap-1 '>
                     <span>Narasimha</span>
                     <span>Gonela</span>
@@ -34,7 +34,7 @@ const NavBar = () => {
                 </ul>
                 <a 
                     href={CV} 
-                    download="My_latest_Resume.pdf" 
+                    download="Narasimha's_Latest_Resume.pdf" 
                     className='text-lg bg-yellow-500 text-black px-4 py-2 rounded hover:bg-yellow-400 font-semibold'
                 >
                     Download CV

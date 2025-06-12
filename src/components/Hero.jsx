@@ -1,13 +1,13 @@
 import React from 'react';
 import { BsDownload } from "react-icons/bs";
 import {FaRegHandshake, FaRegFolderOpen} from "react-icons/fa"
-import CV from "../assets/My_latest_Resume.pdf";
+import CV from "../assets/Narasimha's_Latest_Resume.pdf";
 
 const Hero = () => {
   return (
-    <section className=' bg-gradient-to-t from-white to-yellow-50'>
+    <section >
       <div className='text-black flex md:flex-row justify-center items-center py-20'>
-        <div className='md:w-full mb-5 text-center md:text-left  px-4 md:px-12'>
+        <div className='md:w-full mb-2 text-center md:text-left  px-4 md:px-12 sm:mt-5'>
         {/* <h1 className='text-yellow-500 font-bold justify-center flex items-center text-4xl md:text-6xl'>About Me</h1><br />
             <h1 className='text-xl md:text-4xl my-0 font-bold py-2'>Narasimha Gonela</h1>
             <h3 className='text-wrap md:text- my-0 font-semibold items-center text-xl md:text-3xl '>Web Developer</h3>
@@ -20,7 +20,7 @@ const Hero = () => {
               <h4 className='text-gray-700 font-semibold'>Fresher</h4>
             </div>
                 <button className='md:w-1/2 w-full bg-yellow-500/70 text-black px-6 py-2 rounded-lg hover:bg-yellow-400 duration-200 font-semibold'>Hire Me</button>
-                <a className="md:w-1/2 flex justify-center items-center bg-yellow-500/40 py-2 rounded-lg text-black-700 font-semibold" href={CV} download="My_latest_Resume.pdf">
+                <a className="md:w-1/2 flex justify-center items-center bg-yellow-500/40 py-2 rounded-lg text-black-700 font-semibold" href={CV} download="Narasimha's_Latest_Resume.pdf">
                     Download CV <BsDownload className='ml-2 text-lg' />
                 </a>
             </div>
