@@ -191,7 +191,7 @@ const Projects = () => {
         <div className="flex flex-col md:flex-row  justify-between w-full">
           <h2 className="mb-3 font-semibold text-center text-2xl">Quiz App</h2>
           <a
-            href="#"
+            href="https://github.com/Narasimha57/45Days-CODEBEGUN-Internship/tree/main/Day45_Codebegun_FinalProj_Quiz-App"
             className="underline font-semibold text-nowrap text-center md:text-end"
           >
             Source Code
