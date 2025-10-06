@@ -10,11 +10,11 @@ const Contact = () => {
         <div>
             <div className='space-y-4 text-gray-600'>
                 <FiMail className='text-yellow-500 w-6 h-6 '/>
-                <span>narasimhagonela@gmail.com</span>
+                <span>g.narasimhaa2003@gmail.com</span>
             </div>
             <div className='space-y-4 text-gray-600'>
                 <FiMapPin className='text-yellow-500 w-6 h-6 '/>
-                <span>H-No 3-117/3 Vallabnagar Narsampet Warangal 506132</span>
+                <span>H-No 3-117/3 Vallabnagar Narsampet Warangal 506132.</span>
             </div>
             <div className='space-y-4 text-gray-600'>
                 <FiPhone className='text-yellow-500 w-6 h-6 '/>
